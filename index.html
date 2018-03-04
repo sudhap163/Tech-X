@@ -26,8 +26,25 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="css/iziModal.min.css">
+
+    <style type="text/css">
+        .iziModal-header{
+            background-color: #0e1555 !important;
+        }
+
+        .iziModal-header-title{
+            font-size: 120% !important;
+        }
+
+        .iziModal-content{
+            padding: 15px !important;
+        }
+    </style>   
 
 </head>
+
+
 <body id="page-top" data-spy="scroll" data-target=".navbar">
 <div id="main-wrapper">
     <!-- Page Preloader -->
@@ -56,9 +73,9 @@
                     <ul class="nav navbar-nav">
                         <li class="hidden"><a href="#page-top"></a></li>
                         <li><a class="page-scroll" href="#section-about">About</a></li>
-                        <li><a class="page-scroll" href="#section-guest_lectures">Guest Lectures</a></li>
+                        <li><a class="page-scroll" href="#section-guest_lectures">Interactive Sessions</a></li>
                         <li><a class="page-scroll" href="#section-workshops">Workshops</a></li>
-                        <!-- <li><a class="page-scroll" href="#section-exhibitions">Exhibitions</a></li> -->
+                        <li><a class="page-scroll" href="#section-exhibitions">Exhibitions</a></li>
                         <li><a class="page-scroll" href="#section-agenda">Agenda</a></li>
                         <li><a class="page-scroll" href="#section-contact">Contact</a></li>
                     </ul>
@@ -74,12 +91,12 @@
 
     <div class="jumbotron text-center">
         <div class="content">
-            <div class="event-date">MARCH 17–18, 2018, NIT ROURKELA</div>
+            <div class="event-date">MARCH 11, 17–18, 2018, NIT ROURKELA</div>
             <h1>Tech-X</h1>
             <p class="lead">The First Ever Fully Tech Dedicated Event in NIT Rourkela. Engaging the most influential names of the Tech Industry with The Brightest Minds of our Institute.
             <br>
             <b>Innovations Exemplified</b></p>
-            <button type="button" class="btn btn-default btn-lg">REGISTER NOW</button>
+            <a href="#section-guest_lectures"><button type="button" class="btn btn-default btn-lg">DIVE IN</button></a>
         </div>
     </div>
     <!-- .Jumbotron-->
@@ -89,7 +106,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <p class="lead">
-                        The First Ever Fully Tech Dedicated Event at NIT Rourkela. The event will see the confluence of some of the biggest names in the Tech Industry come at NIT Rourkela for 3 intense of Intense Brainstorming sessions, Workshops, Exhibitions and much More.
+                        The First Ever Fully Tech Dedicated Event at NIT Rourkela. The event will see the confluence of some of the biggest names in the Tech Industry come at NIT Rourkela for 3 days of Intense Brainstorming sessions, Workshops, Exhibitions and much More.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -104,47 +121,59 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h1>GUEST LECTURES</h1>
+                        <h1>INTERACTIVE SESSIONS</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-3">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/guestLectures/Subhobroto Chakroborty.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
                             <h3>Subhobroto Chakroborty
-                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSdA93y-mO3HhjWkhhxCqllct2qYtKVJI_lJWEFP2mbvu_Zmag/viewform">Register for this event</a></small>
-                            </h3>                            
-                            <!-- <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                            </ul> -->
+                                <br>
+                                <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal1" data-izimodal-transitionin="fadeInDown">View More</a>
+                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSdA93y-mO3HhjWkhhxCqllct2qYtKVJI_lJWEFP2mbvu_Zmag/viewform" target="_blank">Register for this event</a></small>
+                            </h3>                        
                         </figcaption>
                     </figure>
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-3">
                     <figure class="thumbnail">
-                        <a href="#"><img src="img/guestLectures/Mahesh Marath.jpg" class="img-responsive" alt="Image"></a>
+                        <a href="#"><img src="img/guestLectures/Goela Brothers.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
-                            <h3>Mahesh Marath
-                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8_Pfx9Px27cZvll4yRUspTCY3vrv9e0AZp98X61OkEIMz-Q/viewform">Register for this event</a></small>
+                            <h3>Harsh Goela and Aditya Goela
+                                <br>
+                                <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal2" data-izimodal-transitionin="fadeInDown">View More</a>
+                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXM0npQYOMoITg6M9eYuwvOH-lfcYDS9vQp8E7980nNgfpg/viewform" target="_blank">Register for this event</a></small>
                             </h3>
                         </figcaption>
                     </figure>
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-3">
                     <figure class="thumbnail">
-                        <a href="#"><img src="img/guestLectures/Goela Brothers.jpg" class="img-responsive" alt="Image"></a>
+                        <a href="#"><img src="img/guestLectures/Mahesh Marath.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
-                            <h3>Harsh Goela and Aditya Goela
-                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSdMXM0npQYOMoITg6M9eYuwvOH-lfcYDS9vQp8E7980nNgfpg/viewform">Register for this event</a></small>
+                            <h3>Mahesh Marath<br><br>
+                                <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal3" data-izimodal-transitionin="fadeInDown">View More</a>
+                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8_Pfx9Px27cZvll4yRUspTCY3vrv9e0AZp98X61OkEIMz-Q/viewform" target="_blank">Register for this event</a></small>
+                            </h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/guestLectures/Gurjeet Dogra.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Gurjeet Dogra<br><br>
+                                <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal4" data-izimodal-transitionin="fadeInDown">View More</a>
+                                <small><a href="https://docs.google.com/forms/d/e/1FAIpQLScUIewD2gClXyPz9mDxDDmrt-eLJ7YndP-wyhN8yOXdUGRWDQ/viewform" target="_blank">Register for this event</a></small>
                             </h3>
                         </figcaption>
                     </figure>
@@ -172,30 +201,25 @@
 
             <!-- <div class="row" style="display: flex; align-items: center; text-align: justify;"> -->
             <div class="row">
-                <div class="col-sm-12 hidden-lg hidden-md">
+                <div class="col-sm-12 col-md-12">
                     <figcaption class="caption text-center">
-                        <h3><strong>AI and ML - Techienest</strong></h3>
+                        <h3><strong>AI AND ML - TECHIENEST</strong></h3>
                     </figcaption>
                 </div>
-                <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                     <figure class="thumbnail">
                         <img src="img/workshops/Techienest AI and ML.jpg" class="img-responsive" alt="Image">
                     </figure>
                 </div>
-                <div class="col-md-4 hidden-sm hidden-xs">
-                    <!-- <figcaption class="caption text-center">
-                        <h3><strong>Workshop 1</strong></h3>
-                    </figcaption> -->
-                    <p class="text-justify"><h3 style="text-align: center;"><strong>AI and ML - Techienest</strong></h3><b class="text-justify" style="text-align: justify;">Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.</b>
-                        <br><br>
-                        <small style="text-align: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7si_MOkwUMern02n0BjpZJp2gyC8KWnEnsYkqvexf4A3FQA/viewform">REGISTER FOR THIS EVENT</a></small>
-                    </p>
-                </div>
-                <div class="col-xs-12 hidden-lg hidden-md">
-                    <p class="text-justify"><b>Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.</b>
-                        <br><br>
-                        <small style="text-align: center; "><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7si_MOkwUMern02n0BjpZJp2gyC8KWnEnsYkqvexf4A3FQA/viewform">REGISTER FOR THIS EVENT</a></small>
-                    </p>
+                <div class="col-sm-12 col-md-12">
+                    <figcaption class="caption text-center">
+                        <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal5" data-izimodal-transitionin="fadeInDown">View More</a>
+                        <h3>
+                            
+                            <small><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7si_MOkwUMern02n0BjpZJp2gyC8KWnEnsYkqvexf4A3FQA/viewform" target="_blank">REGISTER FOR THIS EVENT</a></small>
+                        </h3>
+                    </figcaption>
+                    
                 </div>
             </div>
             <!-- <div class="row" style="display: flex; align-items: center; text-align: justify;">
@@ -215,6 +239,7 @@
                         <img src="img/workshops/Cetpa Primavera.jpg" class="img-responsive" alt="Image">
                     </figure>
                 </div>
+                <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal6" data-izimodal-transitionin="fadeInDown">View More</a>
                 <div class="col-xs-12 hidden-lg hidden-md">
                     <p class="text-justify"><b>Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.</b></p>
                 </div>
@@ -222,28 +247,29 @@
         <!--</div> -->
     </section>
 
-    <!-- <section id="section-exhibitions" class="section-wrapper gray-bg">
+    <section id="section-exhibitions" class="section-wrapper gray-bg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h1>EXHIBITIONS</h1>
+                        <h1>EXHIBITION</h1>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-8 col-md-offset-2">
+            
+                <div class="col-sm-12 col-md-10 col-md-offset-1">
                     <figure class="thumbnail">
-                        <img src="img/imgcopy.jpg" class="img-responsive" alt="Image"></a>
-                        <figcaption class="caption text-center">
-                            <h3>Leon Werner</h3>
-                        </figcaption>
+                        <img src="img/exhibitions/Science Exhibition.jpg" class="img-responsive" alt="Image"></a>
                     </figure>
+                </div>
+
+                <div class="col-sm-12 col-md-12">
+                    <figcaption class="caption text-center">
+                        <a style="color: #999; text-transform: capitalize; font-weight: lighter;" href="#" data-izimodal-open="#modal7" data-izimodal-transitionin="fadeInDown">View More</a>
+                    </figcaption>                    
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section class="section-wrapper about-event" id="section-agenda">
         <div class="container">
@@ -264,66 +290,53 @@
                         <div class="timeline">
                           <div class="container-timeline left-timeline">
                             <div class="content-timeline">
-                              <h2>11th Mar'18<br>9:00 - 12:00<br>Linux Workshop</h2>
+                              <h2 style="color: #fd367e;">11th Mar'18 Sunday<br>9:00 - 12:00</h2>
+                              <h2>Linux and Cloud Computing Workshop</h2>
                               <!-- <p>9:00 - 12:00<br>Linux Workshop</p> -->
                             </div>
                           </div>
                           <div class="container-timeline right-timeline">
                             <div class="content-timeline">
-                              <h2>11th Mar'18<br>10:30 - 12:30<br>Guest Lecture by Mahesh Marath</h2>
+                              <h2 style="color: #fd367e;">11th Mar'18 Sunday<br>10:30 - 12:30</h2>
+                              <h2>Interactive Session by Mahesh Marath</h2>
                               <p></p>
                             </div>
                           </div>
                           <div class="container-timeline left-timeline">
                             <div class="content-timeline">
-                              <h2>11th Mar'18<br>14:00 - 18:00<br>Linux Workshop (Contd.)</h2>
+                              <h2 style="color: #fd367e;">11th Mar'18 Sunday<br>14:00 - 18:00</h2>
+                              <h2>Linux and Cloud Computing Workshop (Contd.)</h2>
                               <p></p>
                             </div>
                           </div>
                           <div class="container-timeline right-timeline">
                             <div class="content-timeline">
-                              <h2>17th Mar'18<br>10:00 - 12:00<br>Guest Lecture by Subhobroto Chakroborty</h2>
+                              <h2 style="color: #fd367e;">17th Mar'18 Saturday<br>10:00 - 12:00</h2>
+                              <h2>Interactive Session by Subhobroto Chakroborty</h2>
                               <p></p>
                             </div>
                           </div>
                           <div class="container-timeline left-timeline">
-                            <div class="content-timeline">
-                              <h2>17th Mar'18<br>15:00 - 18:00<br>AI and ML Workshop by Techienest</h2>
+                            <div class="content-timeline clearfix">
+                              <h2 style="color: #fd367e;">17th Mar'18 Saturday<br>15:00 - 18:00</h2>
+                              <h2>AI and ML Workshop</h2>
+                              <h2>System Verilog Workshop</h2>
                             </div>
                           </div>
                           <div class="container-timeline right-timeline">
-                            <div class="content-timeline">
-                              <h2>17th Mar'18<br>15:00 - 18:00<br>System Verilog Workshopt</h2>
+                            <div class="content-timeline clearfix">
+                              <h2 style="color: #fd367e;">18th Mar'18 Sunday<br>9:30 - 12:30</h2>
+                              <h2>Interactive Session by Harsh Goela and Aditya Goela</h2>
+                              <h2>AI and ML Workshop (Contd.)</h2>
+                              <h2>System Verilog Workshop (Contd.)</h2>
                             </div>
                           </div>
                           <div class="container-timeline left-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>9:30 - 12:30<br>Guest Lecture by Harsh Goela and Aditya Goela</h2>
-                            </div>
-                          </div>
-                          <div class="container-timeline right-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>9:30 - 12:30<br>AI and ML Workshop by Techienest (Contd.)</h2>
-                            </div>
-                          </div>
-                          <div class="container-timeline left-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>09:30 - 12:30<br>AI and ML Workshop by Techienest (Contd.)</h2>
-                            </div>
-                          </div>
-                          <div class="container-timeline right-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>15:00 - 18:00<br>Guest Lecture by Gurjeet Dogra</h2>
-                            </div>
-                          </div>
-                          <div class="container-timeline left-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>15:00 - 18:00<br>AI and ML Workshop by Techienest (Contd.)</h2>
-                            </div>
-                          </div>
-                          <div class="container-timeline right-timeline">
-                            <div class="content-timeline">
-                              <h2>18th Mar'18<br>15:00 - 18:00<br>AI and ML Workshop by Techienest (Contd.)</h2>
+                            <div class="content-timeline clearfix">
+                              <h2 style="color: #fd367e;">18th Mar'18 Sunday<br>15:00 - 18:00</h2>
+                              <h2>Interactive Session by Gurjeet Dogra</h2>
+                              <h2>AI and ML Workshop (Contd.)</h2>
+                              <h2>System Verilog Workshop (Contd.)</h2>
                             </div>
                           </div>
                         
@@ -380,6 +393,43 @@
 <!-- #main-wrapper -->
 
 
+<!-- Modal structure -->
+<div id="modal1" data-iziModal-fullscreen="true"  data-iziModal-title="Session on Digital Marketing, AI and Sustainable Energy"  data-iziModal-subtitle="Subhobroto Chakroborty"  data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p>Mr. Subhobroto Chakraborty is a well renowned figure in the marketing circle, who has dedicated his life, for the purpose of making the concept of digital marketing reach the masses. A person who has held numerous positions of responsibility throughout his illustrous career, Mr. Chakraborty has now dedicated his vision for making sustainable energy, a household concept in India.</p>
+    <p>Come the 17th of March '18, he will be giving a keynote speech at NIT Rourkela, on digital marketing, sustainable energy, the role of AI, and product marketing techniques. Make sure you don't miss this chance of a lifetime! </p>
+</div>
+
+<div id="modal2" data-iziModal-fullscreen="true"  data-iziModal-title="Session on Fintech, AI in Marketing"  data-iziModal-subtitle="Harsh Goela and Aditya Goela"  data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p>For all you techies, who have always had a soft spot for business and making money, we have the perfect solution for you. Harsh and Aditya Goela, who are the co-founders of the renowned Goela School of Finance are going to conduct a session that will be purely based on the stock market, the role of technology in stock market and the disruptive innovation that is being caused by the introduction and application of artificial intelligence in the finance and stock market sector. Make sure to attend !</p>
+</div>
+
+<div id="modal3" data-iziModal-fullscreen="true"  data-iziModal-title="Session on UI and UX-Market needs & Future"  data-iziModal-subtitle="Mahesh Marath" data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p>UI/UX has become an indispensable part of technology today, with aesthetics and ease of use playing a very important role in the attractiveness of any tech-related product. In such a scenario it becomes essential for designers to know the nitty-gritties of UI/UX design so that all the consumers are satisfied. Mr. Mahesh Marath, renowned Design Head of ThinkDesign, Bangalore will be giving a speech on the importance of UI/UX today, the various marketing needs, and the future of UX in general. Be there !</p>
+</div>
+
+<div id="modal4" data-iziModal-fullscreen="true"  data-iziModal-title="Session on Green Building Architecture"  data-iziModal-subtitle="Gurjeet Dogra" data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p><i>"It is not the Beauty of the Building that you should look at, It is the construction of the Foundation that will stand the Test of Time"</i> - David Allan Coe.</p>
+    <p>Our world and our Surroundings has been shaped and Built by some of the Most Brilliant minds in the Field of Architecture.</p>
+    <p>Tech-X NIT Rourkela brings to you A Day Session on  Architecture visualisation through digital simulation and Industrial Value by the Renowned Architect Mr. Gurjeet Dogra.</p>
+</div>
+
+<div id="modal5" data-iziModal-fullscreen="true"  data-iziModal-title="Workshop on Artificial Intelligence and Machine Learning"  data-iziModal-subtitle="Techienest" data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p>Artificial Intelligence and Machine Learning have taken over today's world and it is safe to say that the future mankind visualizes today has artificial intelligence playing a symbiotic existence alongside man. In such a case, it becomes essential for budding data scientists and data analysts, who are interested in Machine Learning and artificial intelligence, to know the basics of the trade to showcase their skills. Techienest, brings to you a 2 day workshop on Machine Learning, Natural Language Processing and artificial intelligence, and there will be certification for all the people completing the course. Seats are limited, so make sure you grab yours!</p>
+</div>
+
+<div id="modal6" data-iziModal-fullscreen="true"  data-iziModal-title="Workshop on Artificial Intelligence and Machine Learning"  data-iziModal-subtitle="CETPA Infotech" data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p>CETPA the brand which is renowned for its unsurpassed quality and offers various specialized trainings. CETPA INFOTECH is the best training company in whole northern India. CETPA provides student training in various technologies like VLSI training, embedded system training, Microsoft certified training, oracle certified training, arm training, ccc training, java training etc. by professionals and experienced trainers who guides the students with best possible efforts.</p>
+    <p>CETPA offers student training on various technologies. These technologies are very much in demand in the market like Web Designing, JAVA, .NET, ANDROID, CCNA and many more. Recently some new technologies are added in CETPA’s wide list of technologies like BIG DATA HADOOP, IOS, IOT, Oracle RAC, and SAP.</p>
+    <p>TechX NIT Rourkela brings to you the Primevera Workshop by Cetpa this March.</p>
+    <p>Especially for Students of the following Branches - Civil, Mechanical,  Ceramic, Meta,Chemical for Industrial Supervisor.</p>
+</div>
+
+<div id="modal7" data-iziModal-fullscreen="true"  data-iziModal-title="Science Exhibition by school students"  data-iziModal-subtitle="Genesys Club, NIT Rourkela" data-iziModal-icon="icon-home" style="text-align: justify; font-family: Arial; ">
+    <p><i>All Things Created must Meet it's End, Every Creation Awaits the day of Reckoning, The day of the Genesis</i></p>
+    <p>Genesis Club of NIT Rourkela brings to you A Day Long Science Exhibition this March at TechX NIT Rourkela.</p>
+    <p>Open to All Branches.</p>
+</div>
+
 <!-- jquery -->
 <script src="js/jquery-2.1.4.min.js"></script>
 
@@ -391,6 +441,35 @@
 
 <!--<script src="js/one-page-nav.js"></script>-->
 <script src="js/scripts.js"></script>
+
+<script type="text/javascript" src="js/iziModal.min.js"></script>
+
+
+<script type="text/javascript">
+    $("#modal1").iziModal();
+    $("#modal2").iziModal();
+    $("#modal3").iziModal();
+    $("#modal4").iziModal();
+    $("#modal5").iziModal();
+    $("#modal6").iziModal();
+    $("#modal7").iziModal();
+</script>
+
+
+<script type="text/javascript">
+    $('a[href*="#"]:not([href="#"]):not([href="#show"]):not([href="#hide"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+</script>
 
 </body>
 </html>
